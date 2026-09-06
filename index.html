@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>About Me - Muhammad Shuja Ahmed</title>
+
+    <style>
+        /* ===== GENERAL ===== */
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #111114;
+            color: #e5e5e5;
+            line-height: 1.6;
+        }
+
+        /* ===== HEADER ===== */
+
+        header {
+            background-color: #18181c;
+            border-bottom: 2px solid #7b3ff2;
+            padding: 25px;
+            text-align: center;
+        }
+
+        header h1 {
+            color: #a970ff;
+            font-size: 38px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        header p {
+            color: #999999;
+            margin-top: 5px;
+        }
+
+        /* ===== MAIN CONTAINER ===== */
+
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        /* ===== CARDS ===== */
+
+        .card {
+            background-color: #1b1b20;
+            border: 1px solid #33333b;
+            border-radius: 15px;
+            padding: 30px;
+            margin-bottom: 25px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+        }
+
+        /* ===== HEADINGS ===== */
+
+        h2 {
+            color: #a970ff;
+            margin-bottom: 15px;
+        }
+
+        h3 {
+            color: #b98cff;
+            margin-bottom: 10px;
+        }
+
+        hr {
+            border: none;
+            height: 1px;
+            background-color: #3b3b45;
+            margin: 15px 0 25px;
+        }
+
+        /* ===== PERSONAL INFORMATION ===== */
+
+        .info {
+            background-color: #151519;
+            border-left: 4px solid #7b3ff2;
+            padding: 15px;
+            border-radius: 8px;
+        }
+
+        .info p {
+            margin: 8px 0;
+        }
+
+        .label {
+            color: #a970ff;
+            font-weight: bold;
+        }
+
+        /* ===== HOBBIES AND SKILLS ===== */
+
+        .list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-top: 15px;
+        }
+
+        .item {
+            background-color: #151519;
+            border: 1px solid #33333b;
+            padding: 15px;
+            border-radius: 10px;
+            transition: 0.3s;
+        }
+
+        .item:hover {
+            border-color: #8b5cf6;
+            transform: translateY(-3px);
+        }
+
+        /* ===== VISITOR SECTION ===== */
+
+        .visitor {
+            text-align: center;
+            background-color: #18181c;
+            border: 1px solid #7b3ff2;
+        }
+
+        .visitor input {
+            width: 80%;
+            max-width: 350px;
+            padding: 12px;
+            margin: 10px;
+            border: 1px solid #444444;
+            border-radius: 8px;
+            background-color: #111114;
+            color: white;
+            outline: none;
+        }
+
+        .visitor input:focus {
+            border-color: #8b5cf6;
+        }
+
+        .visitor button {
+            padding: 12px 25px;
+            border: none;
+            border-radius: 8px;
+            background-color: #7b3ff2;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .visitor button:hover {
+            background-color: #925cff;
+            transform: scale(1.05);
+        }
+
+        /* ===== FOOTER ===== */
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            color: #777777;
+            border-top: 1px solid #29292f;
+            margin-top: 30px;
+        }
+
+        /* ===== MOBILE ===== */
+
+        @media (max-width: 600px) {
+
+            header h1 {
+                font-size: 28px;
+            }
+
+            .card {
+                padding: 20px;
+            }
+
+        }
+    </style>
+</head>
+
+
+<body>
+
+    <!-- HEADER -->
+
+    <header>
+
+        <h1>About Me</h1>
+
+        <p>Welcome to my personal page</p>
+
+    </header>
+
+
+    <!-- MAIN CONTENT -->
+
+    <div class="container">
+
+
+        <!-- INTRODUCTION -->
+
+        <div class="card">
+
+            <h2>Introduction</h2>
+
+            <hr>
+
+            <div class="info">
+
+                <p>
+                    <span class="label">Name:</span>
+                    Muhammad Shuja Ahmed
+                </p>
+
+                <p>
+                    <span class="label">Father Name:</span>
+                    Ijaz Ahmed
+                </p>
+
+                <p>
+                    <span class="label">Birthday:</span>
+                    13 August 2013
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- MOTIVE -->
+
+        <div class="card">
+
+            <h2>My Motive</h2>
+
+            <hr>
+
+            <p>
+                My motive in life is to become an Army officer,
+                become a good Muslim, and be a kind and respectable person.
+            </p>
+
+        </div>
+
+
+        <!-- HOBBIES -->
+
+        <div class="card">
+
+            <h2>My Hobbies</h2>
+
+            <hr>
+
+            <div class="list">
+
+                <div class="item">
+                    ♟️ Playing Chess
+                </div>
+
+                <div class="item">
+                    ❤️ Helping Parents
+                </div>
+
+                <div class="item">
+                    💬 Talking
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- SKILLS -->
+
+        <div class="card">
+
+            <h2>My Skills</h2>
+
+            <hr>
+
+            <div class="list">
+
+                <div class="item">
+                    🐍 Python Programming
+                </div>
+
+                <div class="item">
+                    🌐 HTML & CSS
+                </div>
+
+                <div class="item">
+                    🧠 Quick Understanding
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- VISITOR COUNTER -->
+
+        <div class="card visitor">
+
+    <h2>Visitor Counter</h2>
+
+    <hr>
+
+    <p>Enter your name:</p>
+
+   <form action="/save_visitor" method="POST">
+
+    <input
+        type="text"
+        name="name"
+        placeholder="Enter your name"
+        required
+    >
+
+    <br>
+
+    <button type="submit">
+        Visit Website
+    </button>
+
+    </form>
+    <br>
+
+    <p>
+        👥 Total Visitors:
+        <strong id="visitorCount">Loading...</strong>
+
+<script>
+    fetch("/visitor_count")
+        .then(response => response.text())
+        .then(count => {
+            document.getElementById("visitorCount").textContent = count;
+        })
+        .catch(error => {
+            document.getElementById("visitorCount").textContent = "Error";
+            console.error(error);
+        });
+</script>
+    </p>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        © 2026 Muhammad Shuja Ahmed | My Personal Website
+
+    </footer>
+
+
+</body>
+
+</html>
